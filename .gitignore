@@ -1,0 +1,22 @@
+# Environment and Sensitive Keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Temporary generated report images
+report_topic_perf.png
+report_sent_dist.png
+
+# Operating system files
+.DS_Store
+Thumbs.db
